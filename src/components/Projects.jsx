@@ -22,18 +22,21 @@ const projects = [
     }
 ]
 
-export const ProjectCard = ({ title, description, tags = [] }) => {
+export const Projects = ({ title, description, tags = [] }) => {
     return (
-        <article className="card">
-            <h2>{title}</h2>
-            <p className="card-text">{description}</p>
-            <ul className="tag-list">
+        <Screen title="Mis proyectos">
+            <div className="card-list">
                 {
-                    tags.map((tag => (
-                        <li key={tag} className="tag">{tag}</li>
-                    )))
+                    projects.map(project => (
+                        <ProjectCard
+                            key={project.id}
+                            title={project.title}
+                            description={project.description}
+                            tags={project.tags}
+                        />
+                    ))
                 }
-            </ul>
-        </article>
+            </div>
+        </Screen>
     )
 }
