@@ -6,7 +6,7 @@ export const Home = () => {
     return (
         <Screen title='Inicio'>
             <section className="hero">
-                <div className="avatar">ER</div>
+                <div className="avatar">JP</div>
                 <h2>{name}</h2>
                 <p className="hero-role">{role}</p>
                 <p>
