@@ -6,12 +6,12 @@ export const Contact = () => {
             <ul className="contact-list">
                 <li>
                     <a className="contact-link" href="mailto:ana@correo.com">
-                        Correo: erozog125@gmail.com
+                        Correo: juanpji3210@gmail.com
                     </a>
                 </li>
                 <li>
-                    <a className="contact-link" href="https://github.com/">
-                        GitHub: erozog125
+                    <a className="contact-link" href="https://github.com/juanpji3210-del">
+                        GitHub: juanpji3210
                     </a>
                 </li>
             </ul>
